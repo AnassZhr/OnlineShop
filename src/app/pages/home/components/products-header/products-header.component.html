@@ -1,0 +1,16 @@
+<mat-card class="mb-4">
+    <div class="flex justify-between">
+        <div>
+            <button mat-button [matMenuTriggerFor]="sortByMenu">
+                sort by desc
+
+            </button>
+            <mat-menu #sortByMenu="matMenu">
+                <button mat-menu-item>ascending</button>
+                <button mat-menu-item>descending</button>
+
+            </mat-menu>
+        </div>
+
+    </div>
+</mat-card>
